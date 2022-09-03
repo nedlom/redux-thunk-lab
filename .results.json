@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-09-03T19:47:36.886Z",
+    "end": "2022-09-03T19:47:37.143Z",
+    "duration": 257
+  },
+  "tests": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 121,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError [ERR_INVALID_ARG_TYPE]: The \"stream\" argument must be an instance of Stream. Received an instance of Socket\n    at new NodeError (node:internal/errors:393:5)\n    at eos (node:internal/streams/end-of-stream:65:11)\n    at IncomingMessage._destroy (node:_http_incoming:234:21)\n    at _destroy (node:internal/streams/destroy:109:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:71:5)\n    at endReadableNT (node:internal/streams/readable:1375:16)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "message": "The \"stream\" argument must be an instance of Stream. Received an instance of Socket",
+        "code": "ERR_INVALID_ARG_TYPE",
+        "uncaught": true
+      }
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError [ERR_INVALID_ARG_TYPE]: The \"stream\" argument must be an instance of Stream. Received an instance of Socket\n    at new NodeError (node:internal/errors:393:5)\n    at eos (node:internal/streams/end-of-stream:65:11)\n    at IncomingMessage._destroy (node:_http_incoming:234:21)\n    at _destroy (node:internal/streams/destroy:109:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:71:5)\n    at endReadableNT (node:internal/streams/readable:1375:16)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "message": "The \"stream\" argument must be an instance of Stream. Received an instance of Socket",
+        "code": "ERR_INVALID_ARG_TYPE",
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 121,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
